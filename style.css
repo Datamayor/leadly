@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 50px;
+
+}
+.text{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.text1{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+.register{
+    text-align: center;
+    width: 148px;
+    height: 48px;
+    background-color: #004AAD;
+    border-radius: 4px;
+    color: white;
+}
+
+.text3{
+    margin-top: 12px;
+}
