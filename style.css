@@ -34,3 +34,34 @@ nav{
 .text3{
     margin-top: 12px;
 }
+
+@media screen and (max-width: 680px) {
+    nav{
+        margin: 30px 50px;
+    
+    }
+    .logo{
+        width: 70px;
+    }
+    .arrow-down{
+        width: 6px;
+    }
+    .text{
+        gap: 15px;
+    }
+    
+    .text1{
+        font-size: 6px;
+    }
+    .register{
+        width: 88px;
+        height: 23px;
+        border-radius: 4px;
+    }
+    
+    .text3{
+        margin-top: 6px;
+        font-size: 9px;
+    }
+     
+  }
