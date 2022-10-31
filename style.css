@@ -37,7 +37,7 @@ nav{
 
 @media screen and (max-width: 1200px) {
     nav{
-        margin: 30px 50px;
+        margin: 15px 25px;
     
     }
     .logo{
@@ -66,33 +66,34 @@ nav{
      
   }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 830px) {
+    
     nav{
-        margin: 30px 50px;
+        margin: 10px 9px;
     
     }
     .logo{
-        width: 70px;
+        width: 50px;
     }
     .arrow-down{
         width: 6px;
     }
     .text{
-        gap: 15px;
+        gap: 7px;
     }
     
     .text1{
-        font-size: 6px;
+        font-size: 4px;
     }
     .register{
-        width: 88px;
-        height: 23px;
+        width: 68px;
+        height: 19px;
         border-radius: 4px;
     }
     
     .text3{
-        margin-top: 6px;
-        font-size: 9px;
+        margin-top: 5px;
+        font-size: 8px;
     }
      
   }
