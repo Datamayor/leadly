@@ -35,6 +35,37 @@ nav{
     margin-top: 12px;
 }
 
+@media screen and (max-width: 1200px) {
+    nav{
+        margin: 30px 50px;
+    
+    }
+    .logo{
+        width: 120px;
+    }
+    .arrow-down{
+        width: 12px;
+    }
+    .text{
+        gap: 25px;
+    }
+    
+    .text1{
+        font-size: 12px;
+    }
+    .register{
+        width: 98px;
+        height: 30px;
+        border-radius: 4px;
+    }
+    
+    .text3{
+        margin-top: 8px;
+        font-size: 13px;
+    }
+     
+  }
+
 @media screen and (max-width: 680px) {
     nav{
         margin: 30px 50px;
