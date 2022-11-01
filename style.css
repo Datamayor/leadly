@@ -6,15 +6,15 @@
 }
 
 body{
-    max-width: 1550px;
+    max-width: 1850px;
+    margin: 30px 50px;
 }
 
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 30px 50px;
-
+    padding-bottom: 170px;
 }
 .text{
     display: flex;
@@ -39,9 +39,101 @@ nav{
     margin-top: 12px;
 }
 
+.text4{
+ width: 240px;
+height: 21px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.08em;
+color: #0BCFAC;
+padding-bottom: 40px;
+}
+
+.text5{
+    font-family: 'Poppins';
+    width: 995px;
+    height: 252px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 66px;
+    font-stretch: ultra-expanded;
+    line-height: 94px;
+    color: #001117;
+    margin-bottom: 90px;
+}
+.container2{
+    display: flex;
+}
+
+.container4{
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 70px;
+    position: relative;
+}
+
+.text6{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 21px;
+    width: 300px;
+    margin-bottom: 17px;
+}
+
+.text7{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #4E6269;
+}
+
+.container6{
+  position: absolute;
+  top: 12px;
+  
+    margin-right: 20px;
+}
+
+.container7{
+    width: 198px;
+height: 48px;
+
+background: #004AAD;
+border-radius: 4px;
+}
+
+.container8{
+    margin-left: 40px;
+}
+.text8{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+padding-top: 11px;
+padding-left: 48px;
+color: #FFFFFF;
+position: relative;
+}
+
+.arrow-right{
+    position: absolute;
+    width: 17px;
+    top: 15px;
+    right: 40px;
+}
 @media screen and (max-width: 1200px) {
-    nav{
-        margin: 15px 25px;
+    body{
+        margin: 15px 15px;
     
     }
     .logo{
@@ -72,9 +164,12 @@ nav{
 
 @media screen and (max-width: 830px) {
     
+    body{
+        margin: 10px 15px;
+    }
+
     nav{
-        margin: 10px 9px;
-    
+        padding-bottom: 30px;
     }
     .logo{
         width: 50px;
@@ -100,4 +195,75 @@ nav{
         font-size: 8px;
     }
      
+    .text4{
+        width: 130px;
+       height: 1px;
+       font-size: 6px;
+       line-height: 6px;
+       letter-spacing: 0.08em;
+       padding-bottom: 23px;
+       }
+       
+       .text5{
+           width: 305px;
+           height: 20px;
+           font-size: 16px;
+           line-height: 15px;
+
+           margin-bottom: 40px;
+       }
+
+       
+       .container4{
+        width: 70px;
+           margin-right: 2px;
+           margin-bottom: 9px;
+       }
+       .normal{
+        position: absolute;
+        top: -3px;
+        width: 10px;
+       }
+       
+       .text6{
+           font-weight: 700;
+           font-size: 4px;
+           line-height: 1px;
+           width: 50px;
+           margin-bottom: 7px;
+       }
+       
+       .text7{
+       font-weight: 400;
+       font-size: 3px;
+       line-height: 8px;
+       }
+       
+       .container6{
+        position: relative;
+         top: 2px;     
+        margin-right: 2px;
+       }
+       
+       .container7{
+           width: 58px;
+       height: 18px;
+       border-radius: 4px;
+       }
+       
+       .container8{
+           margin-left: 16px;
+       }
+       .text8{
+       font-size: 6px;
+       line-height: 4px;
+       padding-top: 6px;
+       padding-left: 8px;
+       }
+       
+       .arrow-right{
+           width: 7px;
+           top: 4px;
+           right: 10px;
+       }
   }
