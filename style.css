@@ -131,9 +131,10 @@ position: relative;
     top: 15px;
     right: 40px;
 }
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1300px) {
     body{
-        margin: 15px 15px;
+        margin: auto;
+        max-width: 690px;
     
     }
     .logo{
