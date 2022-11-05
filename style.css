@@ -241,7 +241,7 @@ position: relative;
 @media screen and (max-width: 830px) {
     
     body{
-        margin: auto;
+        margin: 15px auto;
         max-width: 350px;
     }
 
