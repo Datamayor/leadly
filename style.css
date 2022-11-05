@@ -54,16 +54,21 @@ padding-bottom: 40px;
 
 .text5{
     font-family: 'Poppins';
-    width: 995px;
+    width: 845px;
     height: 252px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 900;
-    font-size: 66px;
+    font-size: 56px;
     font-stretch: ultra-expanded;
-    line-height: 94px;
+    line-height: 74px;
     color: #001117;
-    margin-bottom: 90px;
+    margin-bottom: 40px;
+}
+
+.frame{
+    width: 708px;
+height: 633px;
 }
 .container2{
     display: flex;
@@ -131,10 +136,10 @@ position: relative;
     top: 15px;
     right: 40px;
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1400px) {
     body{
         margin: auto;
-        max-width: 690px;
+        max-width: 990px;
     
     }
     .logo{
@@ -175,12 +180,17 @@ position: relative;
        }
        
        .text5{
-           width: 585px;
+           width: 485px;
            height: 222px;
            font-size: 46px;
            line-height: 64px;
            margin-bottom: 10px;
        }
+
+       .frame{
+        width: 448px;
+    height: 403px;
+    }
        
        .container4{
            margin-right: 2px;
@@ -282,13 +292,18 @@ position: relative;
        }
        
        .text5{
-           width: 305px;
+           width: 185px;
            height: 20px;
            font-size: 16px;
            line-height: 19px;
 
            margin-bottom: 50px;
        }
+
+       .frame{
+        width: 148px;
+    height: 148px;
+    }
 
        
        .container4{
