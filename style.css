@@ -241,7 +241,8 @@ position: relative;
 @media screen and (max-width: 830px) {
     
     body{
-        margin: 10px 15px;
+        margin: auto;
+        max-width: 350px;
     }
 
     nav{
